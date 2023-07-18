@@ -26,4 +26,8 @@ export const routes: Routes = [
     path: 'grid',
     loadComponent: () => import('./grid/grid.page').then( m => m.GridPage)
   },
+  {
+    path: 'data-binding',
+    loadComponent: () => import('./data-binding/data-binding.page').then( m => m.DataBindingPage)
+  },
 ];
