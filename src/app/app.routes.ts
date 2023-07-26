@@ -30,4 +30,8 @@ export const routes: Routes = [
     path: 'data-binding',
     loadComponent: () => import('./data-binding/data-binding.page').then( m => m.DataBindingPage)
   },
+  {
+    path: 'alcool-xgasolina',
+    loadComponent: () => import('./alcool-xgasolina/alcool-xgasolina.page').then( m => m.AlcoolXGasolinaPage)
+  },
 ];

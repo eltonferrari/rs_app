@@ -32,4 +32,8 @@ export class HomePage implements OnInit {
   abrirDataBinding() {
     this.navegacao.navigateForward('data-binding')
   }
+
+  abrirAlcoolXGasolina() {
+    this.navegacao.navigateForward('alcool-xgasolina')
+  }
 }
